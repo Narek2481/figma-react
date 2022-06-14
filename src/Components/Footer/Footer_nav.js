@@ -1,22 +1,23 @@
+import { BrowserRouter as Router,Link} from "react-router-dom";
 
 export default function Footer_nav() {
 
     return (
         <ul>
             <li>
-                <a>ГЛАВНАЯ</a>
+                <Link to='#'>ГЛАВНАЯ</Link>
             </li>
             <li>
-                <a>О нас</a>
+                <Link to='#'>О нас</Link>
             </li>
             <li>
-                <a>МЕНЮ</a>
+                <Link to='#'>МЕНЮ</Link>
             </li>
             <li>
-                <a>заказать</a>
+                <Link to='#'>заказать</Link>
             </li>
             <li>
-                <a>Контакты </a>
+                <Link to='#'>Контакты </Link>
             </li>
         </ul>
     );
