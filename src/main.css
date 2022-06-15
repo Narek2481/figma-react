@@ -494,6 +494,7 @@ textarea {
   opacity: 15%;
   font-weight: bold;
   color: white;
+  padding: 10px;
 }
 footer ul{
   display: flex;
