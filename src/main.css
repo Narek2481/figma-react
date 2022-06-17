@@ -194,7 +194,9 @@ header h1 {
   font-weight: 600;
   line-height: 215.4%;
 }
-
+.block_4{
+  margin-bottom: -20px;
+}
 .block_4_child_1 {
   display: flex;
   flex-wrap: wrap;
@@ -203,6 +205,7 @@ header h1 {
 .block_4_child_1 div img {
   display: block;
   width: 100%;
+  transition: 0.8s;
 }
 
 
@@ -212,6 +215,7 @@ header h1 {
 }
 .block_4_child_1 div img:hover{
   opacity: 50%;
+  transition: 0.8s;
 }
 .hover1 {
   position: relative;
