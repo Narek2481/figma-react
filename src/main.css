@@ -197,6 +197,12 @@ header h1 {
 .block_4{
   margin-bottom: -20px;
 }
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid black !important;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid black !important;
+}
 .block_4_child_1 {
   display: flex;
   flex-wrap: wrap;
